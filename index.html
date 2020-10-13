@@ -10,55 +10,61 @@
         <!--Icon-->
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <!--Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="bg">
-        <div class="container container-main">
-            <div class="row header">
+        <div class="container-fluid bg">
+        <div class="container container-main rounded">
+            <div class="row header rounded">
                 <div class="col-md-6 col-sm-5 header__brand text-center text-sm-center text-md-left">
-                    <img class="mw-100" src="./images/logo.png">
-                    <span>X-TECH</span><span>LANDING</span>
-                    
+                    <div class="row">
+                        <span class="col-md-3 col-sm-12 header__brand__logo mb-1">
+                            <a href="#"><img class="mw-100 header__brand__logo--img " src="./images/logo.png"></a>
+                        </span>
+                        <div class="col-md-9 col-sm-12 pt-2 pb-2 align-self-center header__brand__name"><span>X-TECH</span><span>LANDING</span></div>
+                    </div>      
                 </div>
                 <div class="col-md-6 col-sm-7 header__phone-number text-center text-md-right align-self-center">
-                    <span>CALL NOW! </span><span>1-800-123-4567</span>
+                    <span>CALL NOW!&emsp;</span><span>1-800-123-4567</span>
                 </div>
             </div><!--header-->
             <div class="content">
                 <div class="content__intro ">
-                    <h3>The perfect way to convert your traffic into sales.</h3>
-                        
-                    <div class="container-fluid content__intro--shadow">
-                        <img class="mw-100 content__intro__img" src="./images/img_intro.png">
-                    </div>
-                   
-                    
+                    <h4>The perfect way to convert your traffic into sales.</h4>
+                    <div class="row">
+                        <div class="col-12 content__intro--shadow">
+                            <img class="content__intro__img" src="./images/img_intro.png">
+                        </div>
+                    </div>         
                     <div class="row">
                         <div class="col-md-4  content__button-giveit__detail--hidden"></div>
-                        <button class="col-md-4 btn btn-outline-primary btn-grad rounded-pill mt-5 mb-5 content__button-giveit" href="#">
+                        <button class="col-md-4 btn btn-outline-primary btn-giveit rounded-pill mt-4 mb-4  content__button-giveit" href="#">
                             <div>GIVE IT A TRY!</div>
                             <div>Get 30 days access to the fully operational product</div>
                         </button>
-                        <div class="col-md-4 text-md-left align-self-center content__button-giveit__detail">or check out the features</div>
-                    </div>
-                    
-                    
-                    
-         
-         
-                   
-                                               
-                </div>
-                <div class="container content__features text-justify">
+                        <div class="row col-md-4 container__arrow1">
+                            <span class="col-lg-10 col-md-8 col-sm-8 col-8 text-sm-right text-right text-md-left align-self-center content__button-giveit__detail">
+                                or check out the features
+                            </span>
+                            <div class="col-lg-2 col-md-4 col-sm-4 col-4 text-sm-left text-left content__arrow1">
+                                <img src="images/arrow1.png">
+                            </div>
+                        </div>
+                        
 
+                    </div>                                                         
+                </div><!--content__intro-->
+                <div class="container content__features text-justify">
                     <div class="row card-groups">
                         <div class="col-md-6 col-lg-4 mt-3 container__card">
                             <div class="card border-0 p-2 h-100">
                                 <div class="row no-gutters">
-                                    <div class="col-auto">
+                                    <div class="col-2 col-md-3">
                                         <img src="./images/desktop.png" class="" alt="">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-10 col-md-9">
                                         <div class="card-block">
                                             <h4 class="card-title">Quick and easy</h4>
                                             <p class="card-text">Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari
@@ -72,10 +78,10 @@
                         <div class="col-md-6 col-lg-4 mt-3 container__card">
                             <div class="card border-0 p-2 h-100">
                                 <div class="row no-gutters">
-                                    <div class="col-auto">
+                                    <div class="col-2 col-md-3">
                                         <img src="./images/harddrive.png" class="" alt="">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-10 col-md-9">
                                         <div class="card-block">
                                             <h4 class="card-title">Less risky</h4>
                                             <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
@@ -89,10 +95,10 @@
                         <div class="col-md-6 col-lg-4 mt-3 container__card">
                             <div class="card border-0 p-2 h-100">
                                 <div class="row no-gutters">
-                                    <div class="col-auto">
+                                    <div class="col-2 col-md-3">
                                         <img src="./images/tools.png" class="" alt="">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-10 col-md-9">
                                         <div class="card-block">
                                             <h4 class="card-title">Support - 24h</h4>
                                             <p class="card-text">It va esser tam simplic quam Occidental: in fact, it va esser Occidental.A un Angleso
@@ -106,10 +112,10 @@
                         <div class="col-md-6 col-lg-4 mt-3 container__card">
                             <div class="card border-0 p-2 h-100">
                                 <div class="row no-gutters">
-                                    <div class="col-auto">
+                                    <div class="col-2 col-md-3">
                                         <img src="./images/books.png" class="" alt="">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-10 col-md-9">
                                         <div class="card-block">
                                             <h4 class="card-title">Well written help file</h4>
                                             <p class="card-text">Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari
@@ -123,10 +129,10 @@
                         <div class="col-md-6 col-lg-4 mt-3 container__card">
                             <div class="card border-0 p-2 h-100">
                                 <div class="row no-gutters">
-                                    <div class="col-auto">
+                                    <div class="col-2 col-md-3">
                                         <img src="./images/camera.png" class="" alt="">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-10 col-md-9">
                                         <div class="card-block">
                                             <h4 class="card-title">Import your own photos</h4>
                                             <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
@@ -140,10 +146,10 @@
                         <div class="col-md-6 col-lg-4 mt-3 container__card">
                             <div class="card border-0 p-2 h-100">
                                 <div class="row no-gutters">
-                                    <div class="col-auto">
+                                    <div class="col-2 col-md-3">
                                         <img src="./images/mouse.png" class="" alt="">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-10 col-md-9">
                                         <div class="card-block">
                                             <h4 class="card-title">User friendly design</h4>
                                             <p class="card-text">It va esser tam simplic quam Occidental: in fact, it va esser Occidental.A un Angleso
@@ -155,31 +161,27 @@
                         </div>
                     </div>
     
-
                     <div class="content__speech"><!--Cau noi cua Steve Jobs-->
-                        <div>See what our customers are saying...</div>
-                        <div>
-                            <!-- <p class="rounded text-center p-4 content__speech__stevejob">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                                 aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-                                 aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                                  vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
-                                   zzril delenit augue duis dolore te feugait nulla facilisi.</p> -->
-
+                        <div class="pt-3 pb-2 content__speech__title">See what our customers are saying...</div>
+                        <div class="rounded text-center p-4 content__speech__stevejob">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
+                            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                             vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                              zzril delenit augue duis dolore te feugait nulla facilisi.
                         </div>
-                        
+                        <div class="content__speech__name">Steve Jobs, Apple</div>
                     </div>
 
-                    <div class="rounded text-center p-4 content__speech__stevejob">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                                 aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-                                 aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-                                  vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
-                                   zzril delenit augue duis dolore te feugait nulla facilisi.
-                    </div>
-                    <div class="content__speech__name">Steve Jobs</div>
                     <div class="content__button text-center"><!--Button-->
                         <div class="row">
-                            <div class="col-md-4 align-self-center text-md-right content__button-giveit__detail">...don't wait</div>
-                            <button class="col-md-4 btn btn-outline-primary btn-grad rounded-pill mt-5 mb-5 content__button-giveit" href="#">
+                            <div class=" row col-md-4 container__arrow2">
+                                <div class="col-lg-2 col-md-6 col-sm-6 col-6 text-right text-sm-right content__arrow2">
+                                    <img src="./images/arrow2.png" alt="arrow2.png">
+                                </div>
+                                <span class="col-lg-10 col-md-6 col-sm-6 col-6 text-left align-self-center text-sm-left text-md-right content__button-giveit__detail">...don't wait and </span>
+                            </div>
+                            
+                            <button class="col-md-4 btn btn-outline-primary btn-giveit rounded-pill mt-4 mb-5 content__button-giveit" href="#">
                                 <div>GIVE IT A TRY!</div>
                                 <div>Get 30 days access to the fully operational product</div>
                             </button>
@@ -189,17 +191,17 @@
                 </div>
                 
             </div><!--content-->
-            
-            <div class="container-fluid footer"><!--Footer-->
+   
+            <div class="container-fluid footer">
                 <div class="row footer__info  text-justify">
-            
-                    <div class="col-lg-3 col-md-6 col-sm-6"><!--Contact-->
-                        <h5>Contact</h5>
+                    
+                    <div class="col-lg-3 col-md-6 col-sm-6 pb-3"><!--Contact-->
+                        <h6>Contact</h6>
                         <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
                             nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 footer__info__map"><!--Map-->
-                        <h5>Map</h5>
+                    <div class="col-lg-3 col-md-6 col-sm-6 pb-3 footer__info__map"><!--Map-->
+                        <h6>Map</h6>
                         <div>
                             <iframe class="mw-100 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3
                         !1d3918.1586865038053!2d106.79692831462347!3d10.875532492254335!2m3!1f0!2f0!3f0!
@@ -212,60 +214,40 @@
                         
                         
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6"><!--Design details-->
-                        <h5>Design details</h5>
+                    <div class="col-lg-3 col-md-6 col-sm-6 pb-3"><!--Design details-->
+                        <h6>Design details</h6>
                         <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
                             lobortis nisl ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6"><!--Stay connected-->
-                        <h5>Stay connected</h5>
+                    <div class="col-lg-3 col-md-6 col-sm-6 pb-3"><!--Stay connected-->
+                        <h6>Stay connected</h6>
                         
-                        <button class="border-0 btn btn-primary btn-social btn-skype bg-dark"><i class="fab fa-skype"></i></button>
-                        <button class="border-0 btn btn-primary btn-social btn-in bg-dark"><i class="fab fa-linkedin-in"></i></button>
-                        <button class="border-0 btn btn-primary btn-social btn-fb bg-dark"><i class="fab fa-facebook-f"></i></i></button>
-                        <button class="border-0 btn btn-primary btn-social btn-digg bg-dark"><i class="fab fa-digg"></i></button>
-                        <button class="border-0 btn btn-primary btn-social btn-devianart bg-dark"><i class="fab fa-deviantart" aria-hidden="false"></i></button>
-                        <button class="border-0 btn btn-primary btn-social btn-twitter bg-dark"><i class="fab fa-twitter" aria-hidden="false"></i></button>
+                        <button class="border-0 btn btn-primary btn-social btn-skype"><i class="fab fa-skype"></i></button>
+                        <button class="border-0 btn btn-primary btn-social btn-in"><i class="fab fa-linkedin-in"></i></button>
+                        <button class="border-0 btn btn-primary btn-social btn-fb"><i class="fab fa-facebook-f"></i></i></button>
+                        <button class="border-0 btn btn-primary btn-social btn-digg"><i class="fab fa-digg"></i></button>
+                        <button class="border-0 btn btn-primary btn-social btn-devianart"><i class="fab fa-deviantart" aria-hidden="false"></i></button>
+                        <button class="border-0 btn btn-primary btn-social btn-twitter"><i class="fab fa-twitter" aria-hidden="false"></i></button>
                         
-                        
-                        
-                        
-                        
-                        
-                        
+                        </div>
                     </div>
-                </div>
-                <div class="row footer__copyright p-2">
-                    <div class="col-md-6 footer__copyright-left text-center text-md-left align-self-center">
-                        Copyright &#169; 2011 - Shegy - All rights reserved.
-                    </div>
-                    <div class="col-md-6 footer__copyright-right text-center text-md-right align-self-center">
-                        <a href="#">Privacy policy</a>&emsp;|&emsp;<a href="#">Regulations</a>
-                    </div>
-                </div>
+                    <div class="row footer__copyright p-2 rounded-bottom">
+                        <div class="col-md-6 footer__copyright-left text-center text-md-left align-self-center">
+                            Copyright &#169; 2011 - Shegy - All rights reserved.
+                        </div>
+                        <div class="col-md-6 footer__copyright-right text-center text-md-right align-self-center">
+                            <a href="#">Privacy policy</a>&emsp;|&emsp;<a href="#">Regulations</a>
+                        </div>
+                    </div><!--footer__copyright-->
+                </div><!--footer-->
+            </div><!--main-container-->
+
             </div>
-            <div><!--Copy right-->
-                
-            </div>
-        </div><!--main-container-->
-
-
-        <!--Quick and easy--><!--Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari.-->
-        <!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi -->
-        <!--It va esser tam simplic quam Occidental: in fact, it va esser Occidental.A un Angleso it va semblar un simplificat Angles-->
-        <!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.-->
-        <!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam -->
-        <!--Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.-->
-
-
-
-
-
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    </div>
+    
     </body>
 </html>
