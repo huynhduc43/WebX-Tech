@@ -7,7 +7,6 @@ html, body{
 
 html{
     font-size: 16pt;
-   
 }
 
 body {
@@ -48,7 +47,7 @@ body {
 .header__brand span:nth-child(1), .header__phone-number span:nth-child(1){
     font-weight: bold;
     padding-left: 1rem;
-    color: black;
+    color: rgb(109, 109, 109);
 }
 
 
@@ -119,9 +118,9 @@ body {
 }
 
 .content__button-giveit{
-    width: 50% !important;
+    width: 80% !important;
     position: absolute;
-    left: 25%;
+    left: 10%;
     text-align: center;
     box-shadow: 0 0.2rem rgb(136, 131, 131);
     color: #37567FFF !important;
@@ -151,8 +150,6 @@ button.content__button-giveit div:nth-child(2){
     font-size: 0.68rem;
 
 }
-
-
 
 .content__button-giveit__detail--hidden{
     visibility: hidden;
@@ -207,6 +204,7 @@ h4.card-title{
     font-weight: 550;
 }
 
+
 .card{
     background-color:#F7F7F7FF !important;
     font-size: 0.8rem;
@@ -227,11 +225,13 @@ h4.card-title{
 }
 
 .card-text{
-    color: rgb(95, 95, 95);  
+    color: rgb(95, 95, 95);
+    word-break: break-all;
 }
 
 .content__speech__title{
-    font-size: 1.1rem;
+    text-align: left;
+    font-size: 1rem;
     font-weight: lighter;
     font-style: italic;
     color: cornflowerblue;
@@ -283,11 +283,14 @@ h4.card-title{
     float: right;
     padding: 10px 70px;
     color: rgb(119, 119, 119);
+    width: max-content;
 }
 
 .content__button{
     clear: both;
 }
+
+
 
 .footer{
     font-size: 0.8rem;
@@ -295,6 +298,7 @@ h4.card-title{
 }
 
 .footer__info{
+    word-break: break-all;
     padding: 30px;
     background-image: linear-gradient(to right, #7F7F7FFF, #9E9E9EFF, #7F7F7FFF);
 }
@@ -415,6 +419,34 @@ h4.card-title{
 
 
 
+@media (min-width: 320px) {
+    button.content__button-giveit div:nth-child(1){
+        font-size: 0.7rem;
+        
+    }
+    
+    button.content__button-giveit div:nth-child(2){
+        font-size: 0.6rem;
+    
+    }
+
+    .header__phone-number{
+        font-size: 14pt;
+    }
+
+    .content__features{
+        text-align: left !important;
+    }
+
+    .content__arrow2{
+        top: 8%;
+        left: -30%;
+    }
+
+    
+
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .content__button-giveit{
@@ -425,7 +457,16 @@ h4.card-title{
     .content__button-giveit{
         width: 100%;
         left: 0%;
-        font-size: 16px;
+        font-size: 16pt;
+    }
+
+    .content__arrow2{
+        top: -20%;
+        left: 5%;
+    }
+
+    .header__phone-number{
+        font-size: 16pt;
     }
 }
 
@@ -445,7 +486,9 @@ h4.card-title{
     .content__arrow2{
         top: 20%;
     }
-    
+    .header__phone-number{
+        font-size: 16pt;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -463,6 +506,10 @@ h4.card-title{
 
     .content__arrow2{
         top: 20% !important;
+        left: 2%;
+    }
+    .header__phone-number{
+        font-size: 16pt;
     }
 }
 
@@ -481,5 +528,7 @@ h4.card-title{
         top: 20% !important;
         left: 15%;
     }
-    
+    .header__phone-number{
+        font-size: 16pt;
+    }
 }
