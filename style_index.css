@@ -6,7 +6,7 @@ html, body{
 }
 
 html{
-    font-size: 11pt;
+    font-size: 16pt;
    
 }
 
@@ -21,8 +21,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;  
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    min-width: 500px;
-    
 }
 
 .container-main{
@@ -121,7 +119,9 @@ body {
 }
 
 .content__button-giveit{
-    width: max-content;
+    width: 50% !important;
+    position: absolute;
+    left: 25%;
     text-align: center;
     box-shadow: 0 0.2rem rgb(136, 131, 131);
     color: #37567FFF !important;
@@ -176,7 +176,7 @@ button.content__button-giveit div:nth-child(2){
 }
 
 .content__arrow1 img {
-    width: 40%;
+    width: 70px;
     
 }
 
@@ -417,31 +417,28 @@ h4.card-title{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    html{
-        font-size: 12pt;
-    }
-
     .content__button-giveit{
         width: 50% !important;
        margin: 0 auto;
     }
-
+    
+    .content__button-giveit{
+        width: 100%;
+        left: 0%;
+        font-size: 16px;
+    }
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    html{
-        font-size: 14pt;
-    }
-
     .content__arrow1 img {
         width: 100%;
         
     }
 
     .content__arrow1{
-        padding-top: 35% !important;
+        padding-top: 50% !important;
         left: -15% !important;
     }
 
@@ -453,10 +450,6 @@ h4.card-title{
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    html{
-        font-size: 15pt;  
-    }
-
     .content__arrow1{
         padding-top: 25% !important;
         left: -50% !important;
@@ -469,16 +462,12 @@ h4.card-title{
     }
 
     .content__arrow2{
-        top: 10% !important;
+        top: 20% !important;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    html{
-        font-size: 16pt;
-    }
-
     .content__arrow1{  
         left: -15% !important;
         padding-top: 15% !important;
@@ -489,6 +478,7 @@ h4.card-title{
     }
 
     .content__arrow2{
+        top: 20% !important;
         left: 15%;
     }
     
